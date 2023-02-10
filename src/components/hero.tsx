@@ -1,8 +1,10 @@
-const Hero = () => {
+import { Props } from './types';
+
+const Hero = ({ title, subtitle }) => {
   return (
     <div>
-      <h1>CUBE</h1>
-      <p>output sites</p>
+      <h1>{title}</h1>
+      <p>{subtitle}</p>
     </div>
   )
 }
