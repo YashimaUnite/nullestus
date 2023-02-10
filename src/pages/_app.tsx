@@ -1,6 +1,6 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
-import layout, { Layout } from '../components/layout';
+import { Layout } from '../components/layout';
 
 const App = () => ({ Component, pageProps }: AppProps) => {
   return (
@@ -10,4 +10,5 @@ const App = () => ({ Component, pageProps }: AppProps) => {
   )
 }
 
+App.displayName = 'nullestus';
 export default App;

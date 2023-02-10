@@ -1,7 +1,9 @@
 import Header from './header';
 import Footer from './footer';
+import { Props } from './types';
 
-export const Layout = ({ children }) => {
+
+export const Layout = ({ children }: Props) => {
   return (
     <>
       <Header/>
