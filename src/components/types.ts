@@ -1,7 +1,9 @@
 import { ReactNode } from 'react';
 
-export type Props = {
-  children?: ReactNode,
+type Props = {
   title?: string,
   subtitle?: string,
+  children?: ReactNode,
 };
+
+export default Props;
