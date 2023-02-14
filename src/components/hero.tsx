@@ -1,6 +1,6 @@
-import { Props } from './types';
+import Props from './types';
 
-const Hero = ({ title, subtitle }) => {
+const Hero = ({ title, subtitle }: Props) => {
   return (
     <div>
       <h1>{title}</h1>
